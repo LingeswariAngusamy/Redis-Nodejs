@@ -1,6 +1,7 @@
 var redis = require('redis');
 
 var client = redis.createClient();
+//const client = redis.createClient(port, host);
 
 client.on('error', function(err){
 
